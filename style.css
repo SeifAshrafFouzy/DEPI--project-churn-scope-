@@ -1,0 +1,104 @@
+/* Main colors */
+:root {
+    --primary: #000000;       /* Black */
+    --secondary: #FFA500;     /* Orange */
+    --accent: #FFD700;        /* Gold */
+    --background: #FFF8F0;    /* Light orange background */
+    --text: #333333;          /* Dark gray text */
+}
+
+/* Main page styling */
+.stApp {
+    background-color: var(--background);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Sidebar styling */
+[data-testid="stSidebar"] {
+    background-color: #FFFFFF;
+    border-right: 1px solid #E0E0E0;
+}
+
+/* Header styling */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary);
+    font-weight: 600;
+}
+
+/* Metric card styling */
+.css-1xarl3l {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-left: 4px solid var(--secondary);
+}
+
+/* Button styling */
+.stButton>button {
+    border-radius: 8px;
+    border: 1px solid var(--secondary);
+    color: var(--primary);
+    background-color: var(--secondary);
+    font-weight: 500;
+}
+
+.stButton>button:hover {
+    background-color: #E69500;
+    color: white;
+    border: 1px solid #E69500;
+}
+
+/* Expander styling */
+.streamlit-expanderHeader {
+    font-weight: 600;
+    color: var(--primary);
+    background-color: rgba(255, 165, 0, 0.1);
+    border-radius: 8px;
+    padding: 0.5rem;
+    border-left: 4px solid var(--secondary);
+}
+
+.streamlit-expanderContent {
+    padding: 1rem;
+}
+
+/* Dataframe styling */
+.stDataFrame {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #E0E0E0;
+}
+
+/* Radio button styling */
+.st-b7 {
+    background-color: rgba(255, 165, 0, 0.1) !important;
+}
+
+/* Progress bar styling */
+.st-bm {
+    background-color: var(--secondary) !important;
+}
+
+/* Info box styling */
+.stAlert {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-left: 4px solid var(--secondary);
+    background-color: rgba(255, 165, 0, 0.05);
+}
+
+/* Selectbox styling */
+.st-bh {
+    border: 1px solid var(--secondary) !important;
+    border-radius: 8px !important;
+}
+
+/* Tab styling */
+.st-bj {
+    background-color: rgba(255, 165, 0, 0.1) !important;
+    border-radius: 8px !important;
+}
+
+.st-bk {
+    color: var(--primary) !important;
+}
